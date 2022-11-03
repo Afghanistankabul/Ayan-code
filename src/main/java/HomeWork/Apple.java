@@ -7,4 +7,6 @@ public class Apple extends Fruit {
         super(name, color, hasSeed);
     }
     //sample test
+
 }
+
