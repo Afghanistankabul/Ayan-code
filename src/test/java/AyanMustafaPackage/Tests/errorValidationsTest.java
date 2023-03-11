@@ -33,12 +33,9 @@ public class errorValidationsTest extends BaseTest {
         WebElement pro = products.stream().filter(product -> product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null);
         productCatalogue.addProductToCart(productName);
         CartPage cartPage = productCatalogue.goToCartPage();
-        Boolean match = cartPage.VerifyProductDisplay(productName);
+        Boolean match = cartPage.VerifyProductDisplay("ADIDAS ORIGINAL23");
         Assert.assertTrue(match);
-
-
-
-
     }
+
 
 }

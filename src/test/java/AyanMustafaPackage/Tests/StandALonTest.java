@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class StandALonTest extends BaseTest {
-    static String productName = "ADIDAS ORIGINAL";
+     String productName = "ADIDAS ORIGINAL";
 
     @Test
     public void standAlonTest() throws InterruptedException, IOException {
@@ -35,8 +35,12 @@ public class StandALonTest extends BaseTest {
     }
     @Test(dependsOnMethods = {"standAlonTest"})
     public void orderStoryTest(){
-        productCatalogue productCatalogue =
+        productCatalogue ProductCatalogue =
                 page.applicationLogin("mustafa.ayan29@yahoo.com", "Javaselenium12@");
+        OrderPage ordersPage =ProductCatalogue.goToOrdersPage();
+        Assert.assertTrue(ordersPage.VerifyOrderDisplay(productName));
+
+
 
     }
 }

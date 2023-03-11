@@ -7,6 +7,8 @@
             <class name="AyanMustafaPackage.Tests.StandALonTest">
                 <methods>
                     <include name="standAlonTest"/>
+                    <include name="orderStoryTest"/>
+
                 </methods>
             </class>
             <class name="AyanMustafaPackage.Tests.errorValidationsTest">
