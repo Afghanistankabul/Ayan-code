@@ -16,7 +16,7 @@ import java.util.List;
 public class errorValidationsTest extends BaseTest {
     static String productName = "ADIDAS ORIGINAL";
 
-    @Test
+    @Test(groups = {"errorHandling"})
     public void loginErrorValidation() throws InterruptedException, IOException {
 
          page.applicationLogin("mustafa.ayan29@yahoo.com", "Javaselenium12");

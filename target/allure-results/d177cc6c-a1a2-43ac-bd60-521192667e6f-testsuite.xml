@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1678720900778" stop="1678720928374" version="1.4.0">
+    <name>All Test Suite</name>
+    <test-cases>
+        <test-case start="1678720912386" stop="1678720916917" status="passed">
+            <name>standAlonTest</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1678720926737" stop="1678720928000" status="passed">
+            <name>orderStoryTest</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="feature" value="stand alon test"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

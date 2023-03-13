@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="0" stop="1678721013484" version="1.4.0">
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
