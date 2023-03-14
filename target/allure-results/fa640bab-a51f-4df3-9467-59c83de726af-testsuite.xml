@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="0" stop="1678827413319" version="1.4.0">
+    <test-cases>
+        <test-case start="1678827395148" stop="1678827400683" status="passed">
+            <name>standAlonTest[{password=Seleniumjava12@, product=ZARA COAT 3, email=massieayan29@gmail.com}]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1678827411779" stop="1678827413083" status="passed">
+            <name>orderStoryTest</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

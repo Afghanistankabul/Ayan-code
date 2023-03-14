@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="0" stop="1678731306023" version="1.4.0">
+    <test-cases>
+        <test-case start="1678731285637" stop="1678731290220" status="passed">
+            <name>standAlonTest[mustafa.ayan29@yahoo.com,Javaselenium12@,ADIDAS ORIGINAL]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1678731301048" stop="1678731305583" status="passed">
+            <name>standAlonTest[massieayan29@gmail.com,Seleniumjava12@,ZARA COAT 3]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

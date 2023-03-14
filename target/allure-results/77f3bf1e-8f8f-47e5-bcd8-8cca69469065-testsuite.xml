@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1678779043003" stop="1678779096903" version="1.4.0">
+    <name>Default Suite</name>
+    <test-cases>
+        <test-case start="1678779059745" stop="1678779065177" status="passed">
+            <name>standAlonTest[{password=Javaselenium12@, product=ADIDAS ORIGINAL, email=mustafa.ayan29@yahoo.com}]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1678779078142" stop="1678779082949" status="passed">
+            <name>standAlonTest[{password=Seleniumjava12@, product=ZARA COAT 3, email=massieayan29@gmail.com}]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1678779094407" stop="1678779095875" status="passed">
+            <name>orderStoryTest</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="feature" value="SeleniumFrameworkDesign"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

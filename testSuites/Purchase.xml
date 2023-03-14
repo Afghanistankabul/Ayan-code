@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+    <groups>
+        <run>
+            <include name="purchase"></include>
+        </run>
+    </groups>
+        <test thread-count="5" name="stand alon test">
+
+        <classes>
+            <class name="AyanMustafaPackage.Tests.StandALonTest">
+
+            </class>
+        </classes>
+        </test><!--test-->
+    <test thread-count="5" name="error validation test">
+        <classes>
+            <class name="AyanMustafaPackage.Tests.errorValidationsTest">
+
+            </class>
+        </classes>
+    </test> <!--test-->
+</suite> <!--suite-->
